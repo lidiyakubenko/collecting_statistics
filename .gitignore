@@ -1,0 +1,7 @@
+.idea
+.DS_Store
+._.DS_Store
+
+/src/node_modules/
+/src/npm-debug.log
+/coverage

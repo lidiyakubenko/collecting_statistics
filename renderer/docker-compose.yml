@@ -1,0 +1,24 @@
+version: "3.3"
+
+services:
+  kinopoisk_ru:
+    build: .
+    environment:
+      PORT: "3000"
+      ADDRESS: "https://www.kinopoisk.ru"
+    ports:
+      - "3000:3000"
+  ivi_ru:
+    build: .
+    environment:
+      PORT: "3001"
+      ADDRESS: "https://www.ivi.ru"
+    ports:
+      - "3001:3001"
+  film_ru:
+    build: .
+    environment:
+      PORT: "3002"
+      ADDRESS: "https://www.film.ru"
+    ports:
+      - "3002:3002"
